@@ -3,13 +3,16 @@ defaults: &defaults
   discoverable: false
   instructors: []
   course_setup: false
+  projects_org: ucsb-cs56-projects
   features:
     anacapa_repos: false
+    cs56_projects: false	
 
 development:
   <<: *defaults
   features:
     anacapa_repos: true
+    cs56_projects: true	
 
 test:
   <<: *defaults

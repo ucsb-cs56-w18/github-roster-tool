@@ -8,4 +8,7 @@
   <% if FeaturesHelper.anacapa_repos? %>
     <li><%= link_to 'Assignments', assignments_path %></li>
   <% end %>
+  <% if FeaturesHelper.cs56_projects? %>
+    <li><%= link_to 'Projects', projects_path %></li>
+  <% end %>
 <% end %>

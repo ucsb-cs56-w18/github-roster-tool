@@ -12,7 +12,18 @@ module FeaturesHelper
   def self.anacapa_repos?
     Setting['features.anacapa_repos']
   end
+  
   def anacapa_repos?
     FeaturesHelper.anacapa_repos?
   end
+
+  def self.cs56_projects?
+    Setting['features.cs56_projects']
+  end
+  
+  def cs56_projects?
+    FeaturesHelper.cs56_projects?
+  end
+
+  
 end
